@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+  <body>
+    <h1>Forms</h1>
+    <form action="submit.html">
+    
+      <label for="username">Username: </label>
+      <input type="text"
+        name="username" 
+        id="username"
+        required 
+        maxlength="10" 
+        minlength="5">
+      
+      <label for="email">e-mail: </label>
+      <input type="email" 
+      name="email" 
+      id="email" 
+      required
+      maxlength="50">
+
+      <select name="product" id="product">
+        <option value="none"></option>
+        <option value="laptop">Laptop</option>
+        <option value="smartphone">Smartphone</option>
+        <option value="desktop">Desktop</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea  name="message"
+        id="message"
+        cols="25"
+        rows="1"
+        placeholder="Text"
+      ></textarea>
+
+      <button type="submit">Submit</button>
+      
+    </form>
+  </body>
+</html>
