@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  margin: 2rem 2rem;
+  padding: 3rem;
+  background: snow;
+  color: rebeccapurple;
+  font-size: 2rem;
+  border: 3px dashed rebeccapurple;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 2rem;
+}
